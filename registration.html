@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> FORM</title>
+
+    <body>
+        <h1>REGISTER</h1>
+        <div id="reg form">
+            <form id="form">
+                <div id="names" class="inputs">
+                    <label for="First name"> First name :</label>
+                    <input id="name" type="text" name=" First Name" placeholder="Your First Name" required><br>
+                </div>
+                <div class="inputs">
+                    <label for="email"> email :</label>
+                    <input id="email" type="email" name="email" placeholder="Your email" required>
+                </div>
+                <div class="inputs">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter Password" required/>
+                </div>
+                <div id="dob_id" class="inputs">
+                    <label for="dob">Date of Birth</label>
+                    <input id="dob" name="dob" type="date" required/>
+                </div>
+                <div class="test">
+                    <label for="agree" required>  I agree to share term and condition</label>
+                    <input type="checkbox" name="agree" id="tc"><br>
+                </div>
+
+                <div>
+                    <input type="submit" value="Submit Now">
+                    <input type="reset" value="Reset Now">
+                </div>
+            </form>
+
+            <div id="table-box">
+                <h1>Entries</h1>
+                <table id="user-table">
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>DOB</th>
+                        <th>Accepted terms?</th>
+                </table>
+            </div>
+        </div>
+    </body>
+
+</html>
